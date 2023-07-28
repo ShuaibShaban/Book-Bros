@@ -1,0 +1,94 @@
+
+.signup-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 10px 200px rgb(82, 83, 84);
+  padding: 20px;
+  margin: auto;
+  margin-top: 90px;
+  max-width: 500px;
+  width: calc(100% - 40px);
+  opacity: 0.85;
+  border-radius: 12px;
+  }
+
+  .signup-page{
+    position: absolute;
+    top: 0px;
+    background-image: url(../../images/back1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+  
+}
+
+  .txt_field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  }
+
+  label {
+  font-size: 14px;
+  font-weight: 500;
+  }
+
+  input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  }
+
+  button {
+  background-color: #008CBA;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+  }
+
+  button:hover {
+  background-color: #0eb2bd;
+  color: black;
+  }
+
+  .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+  }
+
+  .show-password {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .show-password img {
+    position: absolute;
+    bottom: 1px;
+    right: -60px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .show-password img:active {
+    transform: scale(2.5);
+  }
+
+  .show-password img:not(:active) {
+    transform: scale(1);
+  }

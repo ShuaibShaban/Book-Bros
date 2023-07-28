@@ -1,0 +1,31 @@
+.add-form{
+    margin: auto;
+    box-sizing: border-box;
+    width: 60%;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.8);
+    padding: 30px 0px;
+    border-radius: 12px;
+    min-height: 420px;  
+}
+
+.labels{
+    text-align: left;
+    padding:4px 0px 0px 20px;
+    width: 20%;
+    float: left;
+    /* margin-top: 10px; */
+
+}
+
+.titler{
+    text-align: center;
+}
+
+.theform{
+    margin-top: 20px;
+}
+
+.create-btn{
+    margin-top: 20px;
+}

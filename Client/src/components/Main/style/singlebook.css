@@ -1,0 +1,99 @@
+.imageBook{
+    width: 27%;
+    float: left;
+    margin: 20px 30px;
+    /* height: 700px */
+
+}
+
+.book-details{
+    /* padding: 30px auto;   */
+    padding-top: 20px;
+}
+
+input {
+    background: #ecf0f3;
+    border: thin solid gray;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
+
+  textarea{
+    background: #ecf0f3;
+    border: thin solid gray;
+    height: 50px;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    float: left;
+    margin-left: 50px;
+  }
+
+  .thesub{
+    float: left;
+    margin-left: 30px;
+    margin-top: 27px;
+}
+
+.review-title{
+    clear: both;
+}
+
+.form-review{
+    text-align: center;
+}
+
+.review-title{
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    border-bottom: thin solid black;
+}
+
+.bookreview{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* text-align: right; */
+    margin: 10px 100px;
+}   
+
+ .eachReview:nth-child(even) {
+    text-align: right;
+  }
+  
+.eachReview:nth-child(odd) {
+    text-align: left;
+  } 
+
+.titleReviewCard{
+    font-weight: bolder;
+    /* text-align: center; */
+  }
+
+.reviews-btns{
+    /* float:left; */
+    padding: 10px;
+    margin: 0px 10px;
+  }
+  
+  .updatebtns{
+    clear: both;
+    margin: 90px 20px 0px 20px;
+  }
+
+  .reviewmovedbtns{
+    padding-right: 20px;
+    float: left;
+  }
+
+  .centerguy{
+    width: 50%;
+    padding: 20px;
+    margin: 120px auto;
+    box-shadow: 0 0 10px gray;
+    border-radius: 12px;
+    min-height: 300px;
+  }

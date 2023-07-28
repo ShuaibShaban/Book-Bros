@@ -1,0 +1,10 @@
+.update{
+    margin: 50px auto 30px;
+    width: 30%;
+}
+
+.logout-btn{
+    margin-right: 70px;
+    margin-top: 30px;
+    float: right;
+}
