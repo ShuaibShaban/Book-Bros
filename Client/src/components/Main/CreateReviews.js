@@ -9,7 +9,7 @@ export default function CreateReviews({setReviews}) {
 
     const handleOnSubmit = (e) => {
         e.preventDefault()
-        fetch(`https://bookie-vdkb.onrender.com/books/${id}/reviews`, {
+        fetch(`https://book-api-6jbp.onrender.com/books/${id}/reviews`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -19,7 +19,7 @@ export default function CreateReviews({setReviews}) {
         }).then(res => res.json())
         .then(data => {
             console.log(data)
-            fetch(`https://bookie-vdkb.onrender.com/books/${id}`, {
+            fetch(`https://book-api-6jbp.onrender.com/books/${id}`, {
                 method: "GET",
                 headers: {"Content-Type": "application/json"},
                 credentials: "include"

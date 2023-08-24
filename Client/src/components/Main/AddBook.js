@@ -18,7 +18,7 @@ export default function AddBook({setBooks, books}) {
     let [genres, setGenre] = useState([]);
   
     useEffect(() =>{
-      fetch('https://bookie-vdkb.onrender.com/genres', {
+      fetch('https://book-api-6jbp.onrender.com', {
         method: 'GET',
         credentials: "include"
       })
@@ -36,7 +36,7 @@ export default function AddBook({setBooks, books}) {
   
     function handleSubmit(e) {
       e.preventDefault();
-      fetch("https://bookie-vdkb.onrender.com/books", {
+      fetch("https://book-api-6jbp.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         credentials: "include",

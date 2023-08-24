@@ -7,7 +7,7 @@ import {useNavigate} from 'react-router-dom'
 export default function BookReview({review, nowBookID, setReviews, reviews, idCurrentUser}) {
   let takeupdateReview = useNavigate()
     function deleteReview(){
-      fetch(`https://bookie-vdkb.onrender.com/books/${nowBookID}/reviews/${review.id}`, {
+      fetch(`https://book-api-6jbp.onrender.com/books/${nowBookID}/reviews/${review.id}`, {
         method: 'DELETE',
         headers: {'Content-Type': 'application/json'},
         credentials: "include"
