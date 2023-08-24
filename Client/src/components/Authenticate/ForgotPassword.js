@@ -15,7 +15,7 @@ function ForgotPassword(){
         
       const handleSubmit = (event) => {
         event.preventDefault();
-        fetch('https://book-api-6jbp.onrender.com/users/forgot-password', {
+        fetch('https://booksapi-bker.onrender.com/users/forgot-password', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           credentials: "include",

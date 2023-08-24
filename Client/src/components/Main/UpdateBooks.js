@@ -15,7 +15,7 @@ function UpdateBook(){
     }); 
 
     useEffect(() => {
-        fetch(`https://book-api-6jbp.onrender.com/books/${id}`,{
+        fetch(`https://booksapi-bker.onrender.com/books/${id}`,{
             method: 'GET',
             credentials: "include"
         })
@@ -28,7 +28,7 @@ function UpdateBook(){
 
     function handleUpdateBook(e){
         e.preventDefault()
-        fetch(`https://book-api-6jbp.onrender.com/books/${id}`,{
+        fetch(`https://booksapi-bker.onrender.com/books/${id}`,{
             method: 'PUT',
             headers: {"Content-Type": "application/json"},
             credentials: "include",

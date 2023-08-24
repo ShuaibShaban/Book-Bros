@@ -17,7 +17,7 @@ function Book({idCurrentUser}) {
     // let reviews;
 
     useEffect(() => {
-        fetch(`https://book-api-6jbp.onrender.com/books/${id}`,{
+        fetch(`https://booksapi-bker.onrender.com/books/${id}`,{
             method: 'GET',
             credentials: "include"
         })
@@ -34,7 +34,7 @@ function Book({idCurrentUser}) {
     }, [id])
 
     function deleteBook(){
-        fetch(`https://book-api-6jbp.onrender.com/books/${id}`, {
+        fetch(`https://booksapi-bker.onrender.com/books/${id}`, {
             method: 'DELETE',
             headers: {'Content-Type': 'application/json'},
             credentials: "include"

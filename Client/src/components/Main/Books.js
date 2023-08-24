@@ -11,7 +11,7 @@ export default function Books() {
 
     const [books, setBooks] = useState([]);
     useEffect(() => {
-      fetch('https://book-api-6jbp.onrender.com/books', {
+      fetch('https://booksapi-bker.onrender.com/books', {
         method: 'GET',
         credentials: "include"
       })
